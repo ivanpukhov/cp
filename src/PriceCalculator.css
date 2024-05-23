@@ -1,0 +1,79 @@
+.calculator {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    margin-bottom: 10px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+button.selected {
+    background-color: #ffd700;
+    border-color: #ffac00;
+}
+
+.quantity {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.total-price {
+    font-size: 24px;
+    color: #ff8c00;
+}
+
+.plans > button {
+    width: 25%;
+    margin: 0;
+    height: fit-content;
+    border-radius: 1rem;
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1rem;
+
+}
+
+.plans > button p {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+
+}
+
+b{
+    display: block;
+}
+
+.plan__title, .plans button > .plan__title {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+.plans {
+    display: flex;
+    gap: 1rem;
+
+}
+
+
+.calculator {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}

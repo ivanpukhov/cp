@@ -1,0 +1,115 @@
+{
+  "inkjet_printing": {
+    "alias": "Струйная печать",
+    "glossy_paper": {
+      "alias": "Глянцевая бумага",
+      "single_sided": {
+        "alias": "Односторонняя",
+        "120gr": {"alias": "120гр", "price": 9},
+        "150gr": {"alias": "150гр", "price": 12.5},
+        "180gr": {"alias": "180гр", "price": 13},
+        "210gr": {"alias": "210гр", "price": 14.5},
+        "240gr": {"alias": "240гр", "price": 17.5},
+        "250gr": {"alias": "250гр", "price": 17.5},
+        "300gr": {"alias": "300гр", "price": 19}
+      },
+      "double_sided": {
+        "alias": "Двухсторонняя",
+        "150gr": {"alias": "150гр", "price": 15},
+        "180gr": {"alias": "180гр", "price": 15.5},
+        "250gr": {"alias": "250гр", "price": 21},
+        "300gr": {"alias": "300гр", "price": 22.5}
+      }
+    },
+    "matte_paper": {
+      "alias": "Матовая бумага",
+      "single_sided": {
+        "alias": "Односторонняя",
+        "128gr": {"alias": "128гр", "price": 8},
+        "140gr": {"alias": "140гр", "price": 12},
+        "190gr": {"alias": "190гр", "price": 13.5},
+        "220gr": {"alias": "220гр", "price": 9},
+        "260gr": {"alias": "260гр", "price": 16.5},
+        "300gr": {"alias": "300гр", "price": 18.5},
+        "discounts": {
+          "200gr": {
+            "price_per_sheet": 125,
+            "price_per_card_single": 9,
+            "price_per_card_double": 11,
+            "discount_single": 35,
+            "discount_double": 40
+          }
+        }
+      },
+      "double_sided": {
+        "alias": "Двухсторонняя",
+        "220gr": {"alias": "220гр", "price": 11},
+        "260gr": {"alias": "260гр", "price": 19.5},
+        "300gr": {"alias": "300гр", "price": 22}
+      }
+    }
+  },
+  "digital_printing": {
+    "alias": "Цифровая (лазерная) печать",
+    "supercalendered": {
+      "alias": "Суперкаландрированная",
+      "single_sided": {
+        "alias": "Односторонняя",
+        "120gr": {"alias": "120гр", "price": 14, "discounts": [13, 11.5, 9, 6.5]},
+        "160gr": {"alias": "160гр", "price": 16, "discounts": [14.5, 13, 10, 7]},
+        "200gr": {"alias": "200гр", "price": 18, "discounts": [16, 14.5, 11, 8]},
+        "280gr": {"alias": "280гр", "price": 22.5, "discounts": [20, 18, 14, 9.5]},
+        "350gr": {"alias": "350гр", "price": 26, "discounts": [23.5, 22, 16, 11]}
+      },
+      "double_sided": {
+        "alias": "Двухсторонняя",
+        "120gr": {"alias": "120гр", "price": 21, "discounts": [19, 17, 13, 9]},
+        "160gr": {"alias": "160гр", "price": 23.5, "discounts": [21.5, 19, 14.5, 10]},
+        "200gr": {"alias": "200гр", "price": 26.5, "discounts": [23.5, 21, 16, 11]},
+        "280gr": {"alias": "280гр", "price": 33.5, "discounts": [30, 26.5, 20, 14]},
+        "350gr": {"alias": "350гр", "price": 38, "discounts": [34.5, 31, 23, 16]}
+      }
+    },
+    "coated_gloss_satin": {
+      "alias": "Мелованная (глянец, сатин)",
+      "single_sided": {
+        "alias": "Односторонняя",
+        "90gr": {"alias": "90гр", "price": 18.5, "discounts": [9.75, 8, 6.25, 4.5]},
+        "115gr": {"alias": "115гр", "price": 11, "discounts": [10.25, 8.5, 6.5, 4.75]},
+        "130gr": {"alias": "130гр", "price": 12, "discounts": [10.75, 8.75, 6.75, 5]},
+        "150gr": {"alias": "150гр", "price": 12.5, "discounts": [11, 9, 7, 5.1]},
+        "200gr": {"alias": "200гр", "price": 12.25, "discounts": [12.5, 10.25, 8, 5.75]},
+        "250gr": {"alias": "250гр", "price": 14.75, "discounts": [13.5, 11.5, 8.5, 6.25]},
+        "300gr": {"alias": "300гр", "price": 16.5, "discounts": [15, 11.5, 9.75, 6.75]}
+      },
+      "double_sided": {
+        "alias": "Двухсторонняя",
+        "90gr": {"alias": "90гр", "price": 14, "discounts": [13.5, 10, 8, 5.75]},
+        "115gr": {"alias": "115гр", "price": 14.25, "discounts": [13, 11, 8.5, 6]},
+        "130gr": {"alias": "130гр", "price": 15.5, "discounts": [13.75, 11.25, 8.75, 6.25]},
+        "150gr": {"alias": "150гр", "price": 15.75, "discounts": [14.25, 11.5, 9.5, 6.5]},
+        "200gr": {"alias": "200гр", "price": 18.25, "discounts": [17.5, 15, 10, 8.25]},
+        "250gr": {"alias": "250гр", "price": 19, "discounts": [17.25, 16, 11, 9]},
+        "300gr": {"alias": "300гр", "price": 21.25, "discounts": [19.5, 18.25, 14.25, 9.75]}
+      }
+    }
+  },
+  "protective_lamination": {
+    "alias": "Покрытие защитной пленкой (ламинирование)",
+    "no_lamination": {"alias": "Не ламинировать", "single_sided": {"price": 0}, "double_sided": {"price": 0}},
+    "lamination_32micron": {"alias": "Ламинирование 32мкр", "single_sided": {"price": 18}, "double_sided": {"price": 18}},
+    "lamination_100micron": {"alias": "Ламинирование 100мкр", "single_sided": {"price": 18}, "double_sided": {"price": 18}}
+  },
+  "corner_rounding": {
+    "alias": "Скругление углов",
+    "no_rounding": {"alias": "Не скруглять", "price": 0},
+    "round_corners": {"alias": "Скруглить углы", "price": 2}
+  },
+  "foil_stamping": {
+    "alias": "Фольгирование",
+    "none": {"alias": "Не фольгировать", "single_sided": {"price": 0}, "double_sided": {"price": 0}},
+    "gold": {"alias": "Золото", "single_sided": {"price": 48}, "double_sided": {"price": 96}},
+    "silver": {"alias": "Серебро", "single_sided": {"price": 48}, "double_sided": {"price": 96}},
+    "blue": {"alias": "Синий", "single_sided": {"price": 48}, "double_sided": {"price": 96}}
+  }
+}
